@@ -5,12 +5,12 @@ Hackintosh-MSI-Z490-GAMING-CARBON-WIFI-i7-10700K
 
 ## 说明  
 MSI-Z490-GAMING-CARBON-WIFI 的黑苹果 EFI  
-BIOS是最新版本
-MAC版本：BigSur 11.6
-OpenCore：7.4
-USB：已定制
-已定制：主板后4USB3.0,+2USB2.0，机箱前置2USB3.0
-未定制：主板TYPE-C，机箱TYPE-C，限制的15个口不够用
+BIOS是最新版本  
+MAC版本：BigSur 11.6  
+OpenCore：7.4  
+USB：已定制  
+已定制：主板后4USB3.0,+2USB2.0，机箱前置2USB3.0  
+未定制：主板TYPE-C，机箱TYPE-C，限制的15个口不够用  
 
 ## 配置  
  规格     | 详细信息
