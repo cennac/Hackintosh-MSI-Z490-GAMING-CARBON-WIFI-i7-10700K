@@ -44,11 +44,11 @@ USB：已定制
   
   
 ## 鸣谢
-https://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1903518
+https://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1903518  
 https://github.com/wjz304/Hackintosh-EFI-MSI-Z490i-Unify  
-https://apple.sqlsec.com/
-https://oc.skk.moe/
-https://dortania.github.io/OpenCore-Install-Guide/ 
+https://apple.sqlsec.com/  
+https://oc.skk.moe/  
+https://dortania.github.io/OpenCore-Install-Guide/   
 
 
 
