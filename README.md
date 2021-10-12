@@ -35,9 +35,11 @@ USB：已定制
 ## 使用
  1. 有线网卡：  最新版本无需修改速度。 
 
- 2. 无线网卡 & 蓝牙：  无线网卡可用，蓝牙未测试。
+ 2. 无线网卡 & 蓝牙：  正常
 
- 3. 显示器声音控制软件：MonitorControl  
+ 3.声卡： 声卡机箱后边音频口正常（用核显hdmi无声音） 
+
+ 4. 显示器声音控制软件：MonitorControl  （存档，未用）
 	https://github.com/MonitorControl/MonitorControl
  
 ## 预览
