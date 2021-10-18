@@ -39,9 +39,85 @@ USB：已定制
 
  3. 声卡： 声卡机箱后边音频口正常（用核显hdmi无声音）
 
- 4. 显示器声音控制软件：MonitorControl  （存档，未用）
+ 4. 显示器声音控制软件：MonitorControl  （存档，未用）  
 	https://github.com/MonitorControl/MonitorControl
- 
+  
+## iGPU UHD630 
+### 核显输出时：  
+```
+<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
+	<key>AAPL,ig-platform-id</key>
+	<data>BwCbPg==</data>
+	<key>device_type</key>
+	<string>VGA compatible controller</string>
+	<key>AAPL,slot-name</key>
+	<string>Internal@0,2,0</string>
+	<key>enable-hdmi20</key>
+	<data>AQAAAA==</data>
+	<key>framebuffer-con0-busid</key>
+	<data>AgAAAA==</data>
+	<key>framebuffer-con0-enable</key>
+	<data>AQAAAA==</data>
+	<key>framebuffer-con0-flags</key>
+	<data>xwMAAA==</data>
+	<key>framebuffer-con0-index</key>
+	<data>AgAAAA==</data>
+	<key>framebuffer-con0-pipe</key>
+	<data>CgAAAA==</data>
+	<key>framebuffer-con0-type</key>
+	<data>AAgAAA==</data>
+	<key>framebuffer-con1-busid</key>
+	<data>BAAAAA==</data>
+	<key>framebuffer-con1-enable</key>
+	<data>AQAAAA==</data>
+	<key>framebuffer-con1-flags</key>
+	<data>xwMAAA==</data>
+	<key>framebuffer-con1-index</key>
+	<data>AwAAAA==</data>
+	<key>framebuffer-con1-pipe</key>
+	<data>CAAAAA==</data>
+	<key>framebuffer-con1-type</key>
+	<data>AAgAAA==</data>
+	<key>framebuffer-con2-busid</key>
+	<data>AQAAAA==</data>
+	<key>framebuffer-con2-enable</key>
+	<data>AQAAAA==</data>
+	<key>framebuffer-con2-flags</key>
+	<data>xwMAAA==</data>
+	<key>framebuffer-con2-index</key>
+	<data>AQAAAA==</data>
+	<key>framebuffer-con2-pipe</key>
+	<data>CQAAAA==</data>
+	<key>framebuffer-con2-type</key>
+	<data>AAgAAA==</data>
+	<key>framebuffer-fbmem</key>
+	<data>AACQAA==</data>
+	<key>framebuffer-patch-enable</key>
+	<data>AQAAAA==</data>
+	<key>framebuffer-stolenmem</key>
+	<data>AAAwAQ==</data>
+	<key>framebuffer-unifiedmem</key>
+	<data>AAAAgA==</data>
+	<key>model</key>
+	<string>Intel UHD Graphics 630</string>
+	<key>hda-gfx</key>
+	<string>onboard-1</string>
+```
+### 不输出参与mac视频调度~
+```
+<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
+	<key>AAPL,ig-platform-id</key>
+	<data>AwDImw==</data>
+	<key>AAPL,slot-name</key>
+	<string>Internal@0,2,0</string>
+	<key>device-id</key>
+	<data>xZsAAA==</data>
+	<key>device_type</key>
+	<string>VGA compatible controller</string>
+	<key>model</key>
+	<string>Intel UHD Graphics 630 (Desktop)</string>
+```
+
 ## 预览
   
   
