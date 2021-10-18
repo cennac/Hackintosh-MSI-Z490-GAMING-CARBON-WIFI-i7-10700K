@@ -46,66 +46,53 @@ USB：已定制
 ### 核显输出时：  
 ```
 <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
+<dict>
 	<key>AAPL,ig-platform-id</key>
 	<data>BwCbPg==</data>
-	<key>device_type</key>
-	<string>VGA compatible controller</string>
 	<key>AAPL,slot-name</key>
 	<string>Internal@0,2,0</string>
+	<key>device-id</key>
+	<data>mz4AAA==</data>
+	<key>device_type</key>
+	<string>VGA compatible controller</string>
+	<key>disable-agdc</key>
+	<data>AAAAAA==</data>
+	<key>enable-hdmi-dividers-fix</key>
+	<data>AQAAAA==</data>
 	<key>enable-hdmi20</key>
 	<data>AQAAAA==</data>
+	<key>force-online</key>
+	<data>AQAAAA==</data>
 	<key>framebuffer-con0-busid</key>
-	<data>AgAAAA==</data>
+	<data>AQAAAA==</data>
 	<key>framebuffer-con0-enable</key>
 	<data>AQAAAA==</data>
-	<key>framebuffer-con0-flags</key>
-	<data>xwMAAA==</data>
-	<key>framebuffer-con0-index</key>
-	<data>AgAAAA==</data>
-	<key>framebuffer-con0-pipe</key>
-	<data>CgAAAA==</data>
 	<key>framebuffer-con0-type</key>
 	<data>AAgAAA==</data>
 	<key>framebuffer-con1-busid</key>
-	<data>BAAAAA==</data>
+	<data>AgAAAA==</data>
 	<key>framebuffer-con1-enable</key>
 	<data>AQAAAA==</data>
-	<key>framebuffer-con1-flags</key>
-	<data>xwMAAA==</data>
-	<key>framebuffer-con1-index</key>
-	<data>AwAAAA==</data>
-	<key>framebuffer-con1-pipe</key>
-	<data>CAAAAA==</data>
 	<key>framebuffer-con1-type</key>
 	<data>AAgAAA==</data>
-	<key>framebuffer-con2-busid</key>
-	<data>AQAAAA==</data>
 	<key>framebuffer-con2-enable</key>
 	<data>AQAAAA==</data>
-	<key>framebuffer-con2-flags</key>
-	<data>xwMAAA==</data>
 	<key>framebuffer-con2-index</key>
-	<data>AQAAAA==</data>
-	<key>framebuffer-con2-pipe</key>
-	<data>CQAAAA==</data>
-	<key>framebuffer-con2-type</key>
-	<data>AAgAAA==</data>
-	<key>framebuffer-fbmem</key>
-	<data>AACQAA==</data>
+	<data>/////w==</data>
 	<key>framebuffer-patch-enable</key>
 	<data>AQAAAA==</data>
-	<key>framebuffer-stolenmem</key>
-	<data>AAAwAQ==</data>
-	<key>framebuffer-unifiedmem</key>
-	<data>AAAAgA==</data>
-	<key>model</key>
-	<string>Intel UHD Graphics 630</string>
 	<key>hda-gfx</key>
 	<string>onboard-1</string>
+	<key>igfxfw</key>
+	<data>AgAAAA==</data>
+	<key>model</key>
+	<string>Intel UHD Graphics 630 (Desktop)</string>
+</dict>
 ```
 ### 不输出参与mac视频调度~
 ```
 <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
+<dict>
 	<key>AAPL,ig-platform-id</key>
 	<data>AwDImw==</data>
 	<key>AAPL,slot-name</key>
@@ -116,6 +103,7 @@ USB：已定制
 	<string>VGA compatible controller</string>
 	<key>model</key>
 	<string>Intel UHD Graphics 630 (Desktop)</string>
+</dict>
 ```
 
 ## 预览
